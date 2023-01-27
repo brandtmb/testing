@@ -8,3 +8,15 @@ CREATE TABLE student (
     ctclink INTEGER,
     name VARCHAR
 );
+
+CREATE TABLE course (
+    courseID INTEGER,
+    title VARCHAR,
+    quarter VARCHAR,
+    instructorID INTEGER
+);
+
+CREATE TABLE instructor (
+    ctclink INTEGER,
+    name VARCHAR
+);
